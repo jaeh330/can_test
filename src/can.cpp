@@ -1,5 +1,7 @@
 #include "can_test/can.h"
 
+// modified by JaeH
+
 CAN::CAN(){
   this->port_s = "can0";
   this->frame.can_id=0xB7AC01;
